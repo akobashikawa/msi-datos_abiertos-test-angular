@@ -49,7 +49,12 @@
             <div class="form-group">
                 <label for="limit">URL</label>
                 <p>
+                    <h5>normal</h5>
                     <a href="{{ main.params.urlbase + main.params.guid + '?callback=JSON_CALLBACK&auth_key=' + main.params.key + '&limit=' + main.params.limit }}" target="_blank">{{ main.params.urlbase + main.params.guid + '?callback=JSON_CALLBACK&auth_key=' + main.params.key + '&limit=' + main.params.limit }}</a>
+                </p>
+                <p>
+                    <h5>json_array</h5>
+                    <a href="{{ main.params.urlbase + main.params.guid + '?callback=JSON_CALLBACK&output=json_array&auth_key=' + main.params.key + '&limit=' + main.params.limit }}" target="_blank">{{ main.params.urlbase + main.params.guid + '?callback=JSON_CALLBACK&output=json_array&auth_key=' + main.params.key + '&limit=' + main.params.limit }}</a>
                 </p>
             </div> 
 
