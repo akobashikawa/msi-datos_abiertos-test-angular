@@ -1,4 +1,4 @@
-# MSI Datos Abiertos - Test
+# MSI Datos Abiertos - Test con AngularJS
 
 Para probar el API de datos abiertos de la Municipalidad de San Isidro.
 
